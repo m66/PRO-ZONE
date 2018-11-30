@@ -1,0 +1,511 @@
+* {margin: 0; padding: 0;}
+body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+p, a, span, h4, h5, h6 {
+    font-family: Calibri, sans-serif;
+    font-style: italic;
+}
+h1, h2,h3 {
+    font-family: 'Conv_ScalaSans-Black';
+}
+.top {
+	height: 30px;
+	width: 100%;
+	background-color: #003863;
+}
+.social_pages {
+	float: left;
+	/*padding: 5px;*/
+	margin-left: 10.5%;
+}
+img {
+	height: 30px;
+}
+.search {
+	float: right;
+	margin-right: 11.3%; 
+}
+.search input {
+    color: #9fabb5;
+    background-color: #003863;
+    border: 1px solid #9fabb5;
+    width: 222px;
+    height: 22px;
+    padding: 0 8px;
+    margin-top: 3px;
+    outline: none;
+}
+.search button {
+    position: absolute;
+    top: 0;
+    right: 10.7%;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+button, input {
+	overflow: visible;
+}
+
+/*________middle_________*/
+.middle {
+	height: 115px;
+	width: 100%;
+	background: #FFFFFF;
+	border-bottom: 2px solid #003863;
+}
+.logo {
+	padding: 5px;
+    /* float: left; */
+    position: absolute;
+    left: 11%;
+}
+.logo img {
+	height: 105px;
+}
+.schedule {
+	float: right;
+}
+.schedule p {
+	margin: 23px 186px;
+    color: #CE153F;
+    /*font: italic  Impact, Charcoal, sans-serif 46px;*/
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 46px;
+    font-style: italic;
+}
+/*header bottom*/
+.header_bottom {
+	height: 34px;
+	/*background-color: #fff;*/
+}
+.nav ul {
+  list-style: none;
+  background-color: #fff;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  margin: 0 36px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+.nav a {
+  font-family: Calibri;
+  text-decoration: none;
+  color: #7F7F7F;
+  display: block;
+  transition: .3s background-color;
+}
+.nav a:hover {
+  background-color: #005f5f;
+}
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+@media screen and (min-width: 600px) {
+  .nav li {
+    /*width: 120px;*/
+    border-bottom: none;
+    height: 35px;
+    line-height: 35px;
+    /*font-size: 1.4em;*/
+  }
+  /* Option 1 - Display Inline */
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+
+  /*_________sections______*/
+  .first_section {
+  	background: url(https://prozonelv.com/image/get/1521622002.Air%20Conditioning%20and%20Heating%20Las%20Vegas.JPG) no-repeat center;
+	height: 521px;
+    background-size: 1366px;
+  }
+  .first_section p:nth-of-type(1) {
+  	font-family: Arial Black;
+  	font-size: 59px;
+    color: #fff;
+    font-weight: 900;
+    padding: 50px;
+    text-align: center;
+  }
+.first_section p:nth-of-type(2)  {
+  	height: 63px;
+    width: 343px;
+    margin: 0 auto;
+    background-color: #CE153F;
+  }
+  .first_section a {
+  	text-decoration: none;
+    color: #fff;
+    font-family: Calibri;
+    font-size: 22px;
+    display: inherit;
+    padding-top: 18px;
+    text-align: center;
+  }
+  /* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background: #003863; 
+    border-radius: 15px;
+}
+
+/*_______second section________*/
+.general_paragraph {
+	text-align: center;
+	padding: 25px 154px;
+	font-size: 22px;
+    color: #003863;
+    font-family: Calibri, sans-serif;
+    font-style: italic;
+}
+.allSquares {
+	margin: 30px 0;
+}
+.squares_row {
+	display: inline-flex;
+}
+.row_1, .row_2 {
+	height: 371px;
+	width: 396px;
+	border: 5px solid #EAEAEA;
+	border-radius: 10px;
+	box-sizing: border-box;
+	padding: 10px;
+}
+.row_1 {
+	margin: 0px 20px 45px 149px;
+	box-shadow: 10px 10px #003863;
+}
+.box img {
+	height: 88px;
+	margin: 34px 10px 0 0;
+	float: left;
+}
+.box h3 {
+	width: 302px;
+    padding-left: 59px;
+	font-family: Arial Black;
+	font-size: 24px; 
+	font-style: italic;
+	color: #CE153F;
+}
+.box p {
+	font-family: Calibri;
+    font-size: 19px;
+    margin: 21px 5px;
+}
+.reviews h3 {
+	margin-top: -30px;
+    height: 71px;
+    padding-top: 47px;
+}
+ .row_2 {
+     margin: 0 -57px 0 228px;
+     box-shadow: -10px 11px 0 0 #003863;
+ }
+
+/*_____________third section________*/
+.third_section {
+    /*margin-top: 30px;*/
+    padding: 0 10%;
+    background: url(https://prozonelv.com/images/second-section-bg.png) bottom center no-repeat;
+    /*background-size: auto;*/
+    min-height: 320px;
+}
+.third_section p {
+    text-align: center;
+    font-family: Arial Black;
+    font-size: 43px;
+}
+.third_section li{
+    font-size: 20px;
+    color: #fff;
+    list-style-image: url(https://prozonelv.com/images/check.png);
+}
+.left_3 {
+    float: left;
+}
+.right_3 {
+    float: right;
+}
+.left_3, .right_3 {
+    width: 306px;
+    margin-top: 25px;
+}
+}
+
+/*______________section 4___________*/
+.fourth_squares {
+    display: flex;
+    justify-content: space-around;
+}
+
+.text_contenet p {
+    font-size: 22px;
+    font-style: italic;
+    font-family: Calibri;
+    padding: 25px 160px;
+    text-align: center;
+    color: #003863;
+}
+.fourth_squares div {
+    box-sizing: border-box;
+    background-image: url("https://prozonelv.com/images/third-card-bg.png");
+    background-repeat: no-repeat;
+    padding: 32px;
+    width: 241px;
+    height: 286px;
+}
+.fourth_squares img {
+    height: 75px;
+    margin: 5px 0 5px 55px;
+}
+.fourth_squares h4, .fourth_squares p {
+    text-align: center;
+}
+
+
+/*______________________concat________________*/
+.contact {
+    padding: 3% 10%;
+}
+.contact p {
+    font-family: Calibri, sans-serif;
+    font-style: italic;
+    font-size: 29px;
+}
+.contact span {
+    color: #ce153f;
+}
+.request {
+    color: #003863;
+    width: 490px;
+    margin: 0px 12% 5%;
+    text-align: center;
+}
+.request a {
+    color: #fff;
+    text-decoration: none;
+}
+.request p {
+    box-sizing: border-box;
+    padding-top: 15px;
+    text-align: center;
+    height: 63px;
+    width: 343px;
+    font-size: larger;
+    font-style: italic;
+    margin: 0 auto;
+    background-color: #003863;
+}
+
+.request h3 {
+    font-size: 40px;
+}
+.request h3 span {
+    font-weight: 100;
+    font-size: 50px;
+}
+
+/*__________________save print________________*/
+.savePrint {
+    height: 307px;
+    width: 406px;
+    background-image: url("https://prozonelv.com/images/cupon-bg.png");
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 22px;
+    /*background-color: aliceblue;*/
+    box-sizing: border-box;
+    padding: 28px;
+    border: 3px dashed #ce153f;
+}
+.savePrintBlog {
+    display: flex;
+    justify-content: space-around;
+}
+.savePrint h3 {
+    color: #003863;
+}
+.savePrintP {
+    padding: 25px 0;
+}
+.savePrint div div {
+    display: inline;
+    height: 29px;
+    width: 80px;
+    background-color: #003863;
+    color: #fff;
+    padding: 2px 13px;
+}
+.savePrint a{
+    text-decoration: none;
+    color: #fff;
+    vertical-align: 5px;
+    font-size: 15px;
+}
+.savePrint time {
+    margin: 0 170px 0 -10px;
+    font-size: 15px;
+    color: #909090;
+}
+.blueRed {
+    background-image: url("https://prozonelv.com/images/rb-bg.png");
+    background-repeat: no-repeat;
+    height: 375px;
+    margin: 55px 0;
+    background-size: cover;
+}
+.blueRedDivs {
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.blueRedDivs div {
+    width: 316px;
+}
+.blueRedDivs em {
+    font: 50px bold;
+    color: #fff;
+}
+.blueRedDivs p {
+    font-size: 20px;
+    color: #fff;
+}
+.blueRedFooter {
+    color: #fff;
+    font-size: 30px;
+    width: 1100px;
+    text-align: center;
+    margin: 70px auto
+}
+
+
+/*_______________________owl-carusel_______________*/
+.testimonials {
+    background: url(https://prozonelv.com/images/testominals-bg.png) no-repeat top center;
+    background-size: auto;
+    text-align: center;
+    padding: 45px;
+    margin-top: -55px;
+}
+
+.owl-stage {
+    transform: translate3d(-15360px, 0px, 0px);
+    transition: all 0s ease 0s;
+    width: 60160px;
+}
+.owl-item cloned {
+    width: 1270px;
+    margin-right: 10px;
+}
+.owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+}
+.testimonial {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    width: 75%;
+    margin: 0 auto;
+    min-height: 155px;
+}
+.owl-next, .owl-prev {
+    top: 43%;
+    transform: translateY(-20px);
+    position: absolute;
+    /*font-size: 18px;*/
+    margin: 0 33px;
+    height: 45px;
+    width: 45px;
+    background: #d6d6d6;
+    border-radius: 50%;
+}
+.owl-next {
+    right: 0;
+}
+.fa, .fas {
+    font-weight: 900;
+}
+.fa, .far, .fas {
+    font-family: Font Awesome\ 5 Free;
+}
+.fa, .fab, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.owl-carousel .owl-dot, .owl-carousel .owl-nav .owl-next, .owl-carousel .owl-nav .owl-prev {
+    cursor: pointer;
+    cursor: hand;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/*______________check out_________*/
+.checkOut {
+    margin-bottom: 100px;
+}
+.checkOut p {
+    text-align: center;
+    font-size: 37px;
+    font-weight: bold;
+    font-family: inherit;
+    font-style: normal;
+    padding: 25px 0;
+    color: #CE153F;
+}
+.checkOutDiv {
+    width: 75%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.checkOutDiv img {
+    height: 76px;
+    width: 259px;
+}
+
+/*__________________footer______________*/
+footer {
+    background-image: url("https://prozonelv.com/images/footer-bg.png");
+    color: #9fabb5;
+}
+.allFooter {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 120px;
+}
+.allFooter div {
+    width: 424px;
+    margin: 0 25px;
+}
+.allFooter h2 {
+    font-size: 21px;
+    margin-bottom: 10px;
+}
